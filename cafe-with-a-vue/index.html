@@ -16,9 +16,20 @@
 				ou avec un goûter réconfortant. Mais attention, vous verrez qu'il est
 				difficile de s'arrêter.
 			</p>
+                         <h2>Nom de restaurant : {{ restaurantName }} </h2>
+          
 			<footer class="footer">
 				<p>Copyright La belle vue 2020</p>
 			</footer>
 		</div>
-	</body>
+         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script>
+             const app = new Vue({
+              el: '#app' 
+
+            data:{
+             restaurantName: 'hot Pizza 🍕'
+           } 
+        </script>
+        </body>
 </html>
